@@ -1,0 +1,23 @@
+meta {
+  name: Edit-Pet
+  type: http
+  seq: 6
+}
+
+put {
+  url: http://localhost:3000/pets/:petsid
+  body: json
+  auth: inherit
+}
+
+params:path {
+  petsid: 889e
+}
+
+body:json {
+  {
+        "name": "Crabby",
+      "breed": "Crab",
+      "age": 820
+  }
+}

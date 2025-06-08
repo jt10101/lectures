@@ -1,0 +1,15 @@
+meta {
+  name: Remove-Pets
+  type: http
+  seq: 5
+}
+
+delete {
+  url: http://localhost:3000/pets/:petsid
+  body: none
+  auth: inherit
+}
+
+params:path {
+  petsid: ef1a
+}

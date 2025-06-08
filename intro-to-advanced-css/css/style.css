@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Cal+Sans&family=Outfit:wght@100..900&display=swap");
+
+body {
+  font-family: "Cal Sans", "Outfit", Helvetica, Tahoma, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  width: 50%;
+  border: 1px solid red;
+}
+
+input[type="number"] {
+  background-color: green;
+}
+
+h1:hover {
+  color: gold;
+  text-align: right;
+}
+
+input:focus {
+  border: 1px solid pink;
+}
+
+p::first-letter {
+  font-size: 3rem;
+}

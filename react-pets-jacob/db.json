@@ -1,0 +1,22 @@
+{
+  "pets": [
+    {
+      "name": "Fluffy",
+      "breed": "Cat",
+      "age": 3,
+      "id": "6e77"
+    },
+    {
+      "name": "Muffy",
+      "breed": "Dog",
+      "age": 14,
+      "id": "354e"
+    },
+    {
+      "name": "Crabby",
+      "breed": "Crab",
+      "age": 820,
+      "id": "889e"
+    }
+  ]
+}

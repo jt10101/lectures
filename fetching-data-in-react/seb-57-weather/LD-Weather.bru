@@ -1,0 +1,17 @@
+meta {
+  name: LD-Weather
+  type: http
+  seq: 1
+}
+
+get {
+  url: https://api.weatherapi.com/v1/current.json?key=e07a475017f64a7b90d50654252705&q=London&aqi=no
+  body: none
+  auth: inherit
+}
+
+params:query {
+  key: e07a475017f64a7b90d50654252705
+  q: London
+  aqi: no
+}
